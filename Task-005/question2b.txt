@@ -1,0 +1,976 @@
+'s-Hertogenbosch	1
+Añatuya	1
+Abaca	2
+Abade de Neiva	1
+Adzopé	1
+Agía Varvára	1
+Ageoshimo	1
+Aianí	1
+Ajaccio	2
+Al ‘Anān	1
+Al Bahlūlīyah	1
+Al Bayḑā’	1
+Al Ghizlānīyah	1
+Al Jabīn	1
+Alabat	1
+Alajuela	1
+Alapayevsk	1
+Albertville	1
+Alençon	1
+Almodôvar	1
+Alor Setar	1
+Alurbulu	1
+Ambian	1
+Andarapa	1
+Annan	1
+Anniston	1
+Ansan-si	1
+Anserma	1
+Antes	1
+Anxiang	1
+Araçuaí	1
+Aranos	1
+Araras	1
+Arauco	1
+Argivai	1
+Arraial do Cabo	1
+Arras	1
+Ashcroft	1
+Askeaton	1
+Astorga	1
+Athens	1
+Atlanta	1
+Aurora	1
+Az Zāhir	1
+Azinhal	1
+Ağdaş	1
+Água Preta	1
+Áno Kastrítsion	1
+Örebro	1
+Överkalix	1
+Ülken	1
+Ḩarf al Musaytirah	1
+Bacelo	1
+Bagansiapiapi	1
+Bago	1
+Bailang	1
+Baisha	1
+Baitu	1
+Bajera	1
+Bajomulyo	1
+Baku	1
+Balongmulyo	1
+Balzar	1
+Bamban	1
+Ban Huai Thalaeng	1
+Ban Khlong Bang Sao Thong	1
+Banag	1
+Banho e Carvalhosa	1
+Banjar Batuaji Kaja	1
+Bantul	1
+Banyubang	1
+Banī Zayd	1
+Bao’an	1
+Baofeng	1
+Barobo	1
+Bartniczka	1
+Basa	1
+Basar	1
+Basseterre	1
+Batanamang	1
+Batiano	1
+Batu	1
+Batulawang	1
+Bayawan	1
+Bazar-Korgon	1
+Bačka Topola	1
+Bački Petrovac	1
+Beit Jann	1
+Belfast	1
+Belo Horizonte	1
+Bergen	1
+Bergen op Zoom	1
+Beskolen	1
+Besuki	1
+Bhamdoun	1
+Bhiria	1
+Bila Krynytsya	1
+Binawara	1
+Binzhou	1
+Bira	1
+Bitam	1
+Biyong	1
+Blois	1
+Bobolice	1
+Bodĭ	1
+Bol’shoy Karay	1
+Boliney	1
+Bonneuil-sur-Marne	1
+Bonpland	1
+Bor	1
+Borzęcin	1
+Bosanski Novi	1
+Bous	1
+Boyle	1
+Brańsk	1
+Briceni	1
+Brochów	1
+Budapest	1
+Buinsk	1
+Bulusari	1
+Butere	1
+Bāsht	1
+Caihua	1
+Calmar	1
+Camagüey	1
+Cambebba	1
+Campo Belo	1
+Canalete	1
+Canaries	1
+Candijay	1
+Cangkringan	1
+Cangkuang	1
+Caoping	1
+Carman	1
+Carrefour	1
+Carvalheira	1
+Carvalho	1
+Castelões	1
+Castro	1
+Catabola	1
+Catarman	1
+Catbalogan	1
+Catia La Mar	1
+Cavinti	1
+Cawayan	1
+Cergy-Pontoise	2
+Cerinza	1
+Chama	1
+Changfeng	1
+Changmaoling	1
+Charat	1
+Charlesland	1
+Charlotte	1
+Chatturat	1
+Cheban	2
+Chengbei	1
+Chengdong	1
+Chernukha	1
+Chicago	1
+Chimbas	2
+Chimichagua	1
+Cholpon-Ata	1
+Chon Buri	1
+Christchurch	1
+Chumikan	1
+Chuncheon	1
+Cibodas	1
+Cikuda	1
+Cilaja	1
+Cipatujah	1
+Ciperang	1
+Ciudad Arce	1
+Coaticook	1
+Colca	1
+Comendador	1
+Concepcion	1
+Conchal	1
+Conde	1
+Cotabambas	1
+Cradock	1
+Cran-Gevrier	1
+Cruzeiro do Sul	1
+Currais	1
+Currais Novos	1
+Căuşeni	1
+Da’an	1
+Dabu	1
+Dadamtu	1
+Dadeldhurā	1
+Daohe	1
+Dapdap	1
+Darkūsh	1
+Darungan	1
+Dawang	1
+Denyshi	1
+Depok	1
+Dessalines	1
+Detchino	1
+Diaowei	1
+Diveyevo	1
+Dobříš	1
+Dolgoderevenskoye	1
+Dolno Palčište	1
+Dom Pedro	1
+Don Mueang	1
+Donetsk	1
+Dongdu	1
+Dougou	1
+Dowan	1
+Dubiecko	1
+Dukuhmencek Lor	1
+Duqiao	1
+Dzhankoy	1
+Липково	1
+Матејче	1
+E’erdun Wula	1
+Edosaki	1
+El Corozo	1
+El Pardo	1
+El Puente	1
+Emmen	1
+Emplak	1
+Enköping	1
+Enshi	1
+Erhe	1
+Erping	1
+Esik	1
+Esperalvillo	2
+Eusébio	1
+Evansville	1
+Examília	1
+Falun	1
+Fangtang	1
+Farmington	1
+Fatumuti	1
+Felgueiras	1
+Fengcheng	1
+Fengyang	1
+Fenyan	1
+Forestville	1
+Forssa	1
+Francisco Villa	1
+Franco da Rocha	1
+Fuchang	1
+Fulnek	1
+Funtua	1
+Fuwayriţ	1
+Fuzihe	1
+Gamping Lor	1
+Gantang	1
+Gaokan	1
+Gaoqiu	1
+Gaotian	1
+Gaoxing	1
+Garoua Boulaï	1
+Gaxung	1
+Göteborg	3
+General Guido	1
+General Luna	1
+Genisséa	1
+Germiston	1
+Gibbons	1
+Glória do Goitá	1
+Glogovac	1
+Gobang	1
+Gomunice	1
+Gorzów Śląski	1
+Gorzyczki	1
+Gourcy	1
+Gozdowo	1
+Grand Forks	1
+Great Neck	1
+Grenoble	1
+Gryaznovskoye	1
+Guaíba	1
+Guanabacoa	1
+Gubat	1
+Guingamp	1
+Gumuk Tengah	1
+Guradog	1
+Guruafin	1
+Hadano	1
+Hafnarfjörður	1
+Hafrsfjord	1
+Haishan	1
+Haixing	1
+Hamburg Harvestehude	1
+Haocun	1
+Hashimoto	1
+Haumeni	1
+Haz-Zebbug	1
+Hazlov	1
+Hässleholm	1
+Höllviken	1
+Hendījān	1
+Hengshan	1
+Hengzhou	1
+Hexi	1
+Homeyo	1
+Hongchang	1
+Hongjiaguan	1
+Hongjiang	1
+Hongqiao	1
+Huaikan	1
+Huanglong	1
+Huangtang	1
+Huangtian	1
+Huangtugang	1
+Huaqiao	1
+Huayuan	1
+Hudson Bay	1
+Huishi	1
+Hulan	1
+Huliao	1
+Hīt	1
+Ifo	1
+Ikey	1
+Ilongero	1
+Indang	1
+Ipoh	1
+Irapa	1
+Iriga City	1
+Isnos	1
+Itambé	1
+Itaquaquecetuba	1
+Jalatrang	1
+Jambulang	1
+Jangas	1
+Jarash	1
+Jaroměř	1
+Jelat	1
+Jelisavac	1
+Jequié	1
+Jiangluo	1
+Jianshe	1
+Jielin	1
+Jincun	1
+Jinnan	1
+Jiuhua	1
+Jiujie	1
+Jiulian	1
+Johor Bahru	2
+Juiz de Fora	1
+Junín	1
+Jūrat ash Sham‘ah	1
+Kaduy	1
+Kaiama	1
+Kajuru	1
+Kalidung	1
+Kampen (Overijssel)	1
+Kampungbajo	1
+Kangmei	1
+Kanigorokrajan	1
+Karangnongko	1
+Karangwungu Lor	1
+Karlskoga	1
+Karlskrona	1
+Katoro	1
+Kax	1
+Kayukembang	1
+Kašina	1
+Kebonagung	1
+Kebonkai	1
+Kedian	1
+Kedung	1
+Kedungringin	1
+Kelaniya	1
+Kelowna	1
+Kembang	1
+Kembangan	1
+Kembangarum	1
+Ketapang	1
+Keti Bandar	2
+Kfar NaOranim	1
+Khisarya	1
+Khorol	1
+Khoroshëvo-Mnevniki	1
+Khrystynivka	1
+Khōst	1
+Kiambu	1
+Kilifarevo	1
+Kimhae	1
+Kindersley	1
+Kindu	1
+Kingston	1
+Kirovs’k	1
+Kisii	1
+Kitango	1
+Kiukasen	1
+Kladovo	1
+Koh Kong	1
+Kokaj	1
+Kolonowskie	1
+Kombolcha	1
+Komyshnya	1
+Korogan Timur	1
+Kostanay	1
+Kostopil’	1
+Kota Bharu	1
+Kota Kinabalu	1
+Kouloúra	1
+Krajan	1
+Krajan Curahcotok	1
+Krajan Pundungsari	1
+Krajandadapmulyo	1
+Kramators’k	1
+Kranjska Gora	1
+Krasica	1
+Kristianstad	1
+Kruhlaye	1
+Kuala Lumpur	2
+Kuchinarai	1
+Kulary	1
+Kuliyapitiya	1
+Kunshan	1
+Kupang	1
+Kusak	1
+Kusatsu	1
+Kutampi	1
+Kuttu	1
+Kuwait City	1
+Kuzhu	2
+La Concepcion	1
+La Loma	1
+La Unión	1
+Labney	1
+Lages	1
+Lamatuka	1
+Langtad	1
+Langue	1
+Laoliangcang	1
+Laranjal Paulista	1
+Las Vegas	1
+Laslovo	1
+Lau	1
+Lecheng	1
+Ledenice	1
+Lendan	1
+Leonidovo	1
+Lianghu	1
+Libertador General San Martín	1
+Lille	1
+Lingyang	2
+Lions Bay	1
+Lipljan	1
+Lisakovsk	1
+Litibakul	1
+Littleton	1
+Liulin	1
+Liushun	1
+Llalli	1
+Lobito	1
+Lokot’	1
+Lomme	1
+Long’an Chengxiangzhen	1
+Longnan	1
+Longshan	1
+Los Cerrillos	1
+Lourdes	1
+Lourido	1
+Lubao	1
+Lubei	1
+Luofang	1
+Luojiaping	1
+Lyskovo	1
+Maïné Soroa	1
+Mabyan	1
+Maca	1
+Machikou	1
+Macieira de Rates	1
+Maesan	1
+Magok	1
+Majāz al Bāb	1
+Malabonot	1
+Malaga	1
+Malata	1
+Mali	1
+Maliang	1
+Mališevo	1
+Malummaduri	1
+Malārd	1
+Mandor	1
+Maoping	2
+Maracaibo	1
+Marau	1
+Mariestad	1
+Mariposa	1
+Marsa Alam	2
+Massy	1
+Mastaiciai	1
+Maswa	1
+Matangshan	1
+Maubara	1
+Mauponggo	1
+Mayfa‘ah	1
+Mayma	1
+Mayo	1
+Mayuge	1
+Medang	1
+Memphis	1
+Menghai	1
+Mgandu	1
+Miejska Górka	1
+Miguel Hidalgo	1
+Miguel Pereira	1
+Mikulčice	1
+Mikumi	1
+Milove	1
+Miratejo	1
+Mishima	1
+Mizusawa	1
+Mmaaf	1
+Mnichovo Hradiště	1
+Mo I Rana	1
+Mobile	1
+Moca	1
+Mohoro	1
+Mollās̄ānī	1
+Mondokan	1
+Monjas	1
+Monkayo	1
+Monte	1
+Montgomery	1
+Montijo	1
+Montpellier	1
+Moravská Třebová	1
+Morrito	1
+Morro Agudo	1
+Motong	1
+Moyuan	1
+Mozdok	1
+Mstsislaw	1
+Mueang Phuket	1
+Mukhen	1
+Muqui	1
+Musan-ŭp	1
+Mutang	1
+Na Yung	1
+Nagrog Wetan	1
+Nakhon Chai Si	1
+Nakhon Luang	1
+Nangka	2
+Nanmu	1
+Nanping	1
+Nantes	1
+Načeradec	1
+Nässjö	1
+Néa Ionía	1
+Nelas	1
+Neni	1
+Neob	1
+New Orleans	1
+New Yekepa	1
+New York City	1
+Newark	1
+Nggalak	1
+Nggambel	1
+Ngreco	1
+Nhà Bè	1
+Nihommatsu	1
+Niu	1
+Nizhnepavlovka	1
+Nizhniy Chir	1
+Nizhniy Lomov	2
+Nizhnyaya Tura	1
+Nofoali‘i	1
+North Side	1
+Nova Granada	1
+Novaya Derevnya	1
+Novi Šeher	1
+Novoishimskiy	1
+Novokhovrino	1
+Novokuz’minki	1
+Novopskov	1
+Nowe Grocholice	2
+Numan	1
+Nusaherang	1
+Nāṟay	1
+Okinawa	1
+Opoczno	1
+Ordóñez	1
+Orocué	1
+Orzesze	1
+Osinniki	1
+Oskarshamn	1
+Otan Aiyegbaju	1
+Otra Banda	1
+Outeiro Seco	1
+Ovsyanka	1
+Pacatuba	1
+Pagangan	1
+Pakuncen	1
+Palenggihan	1
+Palopo	1
+Pan-an	1
+Pancas	1
+Pangao	1
+Paokmotong Utara	1
+Paoua	1
+Parabcan	1
+Paraguaçu Paulista	1
+Paranho	1
+Paris 01	1
+Paris 11	1
+Paris 13	1
+Paris 17	1
+Paris 18	1
+Paris La Défense	1
+Pasirmukti	1
+Patos	1
+Patquía	1
+Patsi	1
+Póvoa	1
+Pecoro	1
+Pederneiras	1
+Pedrogão	1
+Penang	1
+Perístasi	1
+Perelhal	1
+Perepravnaya	1
+Pervomayskoye	1
+Petrovskaya	1
+Phủ Thông	1
+Phrae	1
+Phuthaditjhaba	1
+Pimentel	1
+Pingdu	1
+Piracicaba	1
+Pirapora	1
+Plessisville	1
+Ploemeur	1
+Ploso Wetan	1
+Pointe-à-Pitre	1
+Pontal	1
+Pontevedra	1
+Popil'nya	1
+Port Colborne	1
+Potok Złoty	1
+Próchoma	1
+Prestea	1
+Pridonskoy	1
+Princeville	1
+Profítis Ilías	1
+Prokop’yevsk	1
+Promyshlennovskiy	1
+Prostřední Bečva	1
+Pukekohe East	1
+Pukou	1
+Pulian	1
+Puyang	1
+Pīrgaaj	1
+Qarchī Gak	1
+Qiaozi	1
+Qing’an	1
+Qingduizi	1
+Qinggis Han	1
+Qingyang	1
+Qiqin	1
+Quangang	1
+Quintas	1
+Ra-ngae	1
+Raciąż	1
+Rahayu	1
+Raków	1
+Rancagadog	1
+Rangxi	1
+Reforma	1
+Remiremont	1
+Rentung	1
+Reston	1
+Ricardo Flores Magon	1
+Rio das Ostras	1
+Rio Novo do Sul	1
+Rio Real	1
+Rodez	1
+Rongcheng	1
+Rudnichnyy	1
+Ruse	1
+Rzhev	1
+Sabaneta	1
+Sadang Kulon	1
+Sagaing	1
+Saint-Gaudens	1
+Sainte-Adèle	1
+Sainte-Thérèse	1
+Salavan	1
+Samamiya	1
+Samangawah	1
+Samboan	1
+Sampaloc	1
+San Antonio	1
+San Clemente	1
+San Diego	1
+San Felipe	1
+San Francisco de Coray	1
+San Francisco de la Paz	1
+San Lorenzo	1
+San Matías	1
+San Onofre	1
+San Pedro	2
+San Rafael	1
+San Remigio	1
+Sandaoba	1
+Sankera	1
+Sankui	1
+Sankwia	1
+Sansanné-Mango	1
+Santa Brigida	1
+Santa Clara	1
+Santa Cruz do Sul	1
+Santa Rosa	2
+Santo Estêvão	1
+Sapu Padidu	1
+Sarapul	1
+Saripin	1
+Sarpang	1
+Sarvaš	1
+Sassandra	1
+Sastöbe	1
+Sayang Lauq	1
+São Francisco do Conde	1
+São José de Mipibu	1
+São Paulo de Olivença	1
+Séléa	1
+Sölvesborg	1
+Seara	1
+Seattle	1
+Sendangrejo	1
+Sergiyev Posad	1
+Setonokalong	1
+Shah Alam	1
+Shakhta	1
+Shangshuai	1
+Shangyuan	1
+Shaoguan	1
+Shatou	1
+Shedok	1
+Shevchenkove	1
+Shibushi	1
+Shilong	1
+Shimonoseki	1
+Shinaihai	1
+Shinao	1
+Shiniu	1
+Shiye	1
+Shiziling	1
+Shuanghekou	1
+Shuanglong	1
+Shubenka	1
+Shuiche	1
+Shuiji	1
+Shuitian	1
+Sibut	1
+Sihe	1
+Silvares	1
+Silveiros	1
+Simunul	1
+Sindangsari	2
+Sirte	1
+Sitabamba	1
+Siukh	1
+Sivers’k	1
+Skála Oropoú	1
+Skidal’	1
+Skopin	1
+Skrunda	1
+Slovenski Javornik	1
+Sobotka	1
+Sobreira	1
+Song	1
+Songzhuang	1
+Sorodot	1
+Sosnogorsk	1
+Sosnovo-Ozerskoye	1
+Sousse	2
+Sovetskoye	1
+Spasskoye-Lutovinovo	1
+Spétses	1
+Staffanstorp	1
+Starominskaya	1
+Stockholm	2
+Subkowy	1
+Subrag	1
+Sujitan	1
+Sukarara Utara	1
+Sukasari	1
+Sukowono	1
+Sungaikakap	1
+Suntar	1
+Surazh	1
+Sut-Khol’	1
+Suwaru	2
+Suzhou	1
+Sviadnov	1
+Syców	1
+Słupno	1
+Taiyanghe	1
+Tajike’abati	1
+Tajimi	1
+Takanabe	1
+Takasaki	1
+Talalora	1
+Talok	1
+Tambak	1
+Tando Muhammad Khān	1
+Tandou	1
+Tangga	1
+Tanguá	1
+Tangzang	1
+Tanjungbatu	1
+Taoyang	1
+Tapel	1
+Taremskoye	1
+Targowisko	1
+Tarikolot	1
+Tartu	1
+Tatuí	1
+Taveiro	1
+Tawangsari	1
+Tékane	1
+Tô Hạp	1
+Töreboda	1
+Tebanah	1
+Tegalheras	1
+Tembongraja	1
+Tepal	1
+Thala	1
+Tianyuan	1
+Tielong	1
+Tijão	1
+Timba Lauk	1
+Tindog	1
+Tingqian	1
+Tiro	1
+Tiznit	1
+Tomobe	1
+Topi	1
+Torre do Pinhão	1
+Tosno	1
+Tres Isletas	1
+Trondheim	1
+Trzebunia	1
+Tsaghkadzor	1
+Tsovazard	1
+Tuapse	1
+Tullinge	1
+Tumbi	1
+Tumpakkepuh	1
+Turtas	1
+Tyringe	1
+Tyszowce	1
+Ujungpangkah	1
+Uluale	1
+Umeå	1
+Upper Hell's Gate	1
+Uppsala	1
+Urus-Martan	1
+Uusikaupunki	1
+Uyen Hung	1
+Vagonoremont	1
+Vaitape	1
+Vale de Rolas	1
+Vales	1
+Valuyki	1
+Vanimo	1
+Vanves	1
+Vännäs	1
+Veiga	1
+Veliki Preslav	1
+Velikiye Luki	1
+Veliko Tŭrnovo	1
+Velingrad	1
+Vernon	1
+Veternik	1
+Viñales	1
+Victoria Falls	1
+Vigo	1
+Vila Boa do Bispo	1
+Vila Nova	1
+Vilar do Pinheiro	1
+Villa Nueva	1
+Villeneuve-la-Garenne	1
+Vitória	1
+Volgograd	1
+Volosovo	1
+Volzhskiy	1
+Vom	1
+Vranisht	1
+Vrede	1
+Vredendal	1
+Vuhlehirs’k	1
+Wa	1
+Waco	1
+Waigete	1
+Wailolung	1
+Würzburg	1
+Weihe	1
+Weizhou	1
+White City	1
+Wiang Chiang Rung	1
+Wilczyce	1
+Wiązownica	1
+Wojaszówka	1
+Wushishi	1
+Xia Dawo	1
+Xiabaishi	1
+Xiajiashan	1
+Xiangang	1
+Xianshui	1
+Xiaoduchuan	1
+Xiaoshanzi	1
+Xiaotao	1
+Xiaping	1
+Xi’an	1
+Xichuan	1
+Xilanqi	1
+Xiluodu	1
+Xinó Neró	1
+Xindian	1
+Xinjiang	1
+Xinjie	1
+Xinjiebu	1
+Xinye	1
+Xinyi	1
+Xiongbei	1
+Xipu	1
+Xishaqiao	1
+Xumu	1
+Xunjian	1
+Yajiang	1
+Yanghu	1
+Yangjiao	1
+Yangying	1
+Yeshan	1
+Yezhu	1
+Yingkeng	1
+Yinglong	1
+Yiqi	1
+Yongchang	1
+Yongfeng	1
+Youdunjie	1
+Yuanmou	1
+Yujiao	1
+Yushan	1
+Zagoryanskiy	1
+Zalishchyky	1
+Zamoskvorech’ye	1
+Zangbawa	1
+Zapolyarnyy	1
+Zargarān	1
+Zarichchya	1
+Zavolzh’ye	1
+Zgornje Pirniče	1
+Zhangaqorghan	1
+Zhangdian	1
+Zhanghekou	1
+Zhangqing	1
+Zhangxi	1
+Zhanjia	1
+Zhashkiv	1
+Zhengyangshan	1
+Zheshart	1
+Zhongben	1
+Zhongdeng	1
+Zhujiang	1
+Zhukovka	1
+Zhuyang	1
+Zomba	1
+Zorak	1
+Złotniki Kujawskie	1
+Łapanów	1
+Łyse	1
+Świnice Warckie	1
+Živinice	1
+Āsmār	1
+Ćićevac	1

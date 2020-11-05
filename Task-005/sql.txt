@@ -1,0 +1,48 @@
+# Create table Employees.
+CREATE TABLE Employees (id INT NOT NULL, first_name VARCHAR(255), last_name VARCHAR(255), email VARCHAR(255), gender VARCHAR(255), city VARCHAR(255), car_vin VARCHAR(255), PRIMARY KEY(id));
+
+# Pull .csv data into table.
+LOAD DATA INFILE '/var/lib/mysql-files/MOCK_DATA.csv'
+INTO TABLE Employees
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+# Question 1a: Print first name, last name (and department).
+SELECT first_name, last_name
+FROM Employees
+INTO OUTFILE "/var/lib/mysql-files/question1a.txt";
+
+# Question 1b: Print first name, last name (and department) for forenames beginning with a vowel.
+SELECT first_name, last_name
+FROM Employees
+WHERE first_name
+RLIKE "^[AEIOU]"
+INTO OUTFILE "/var/lib/mysql-files/question1b.txt";
+
+# Question 2a: Query first name, last name, (department), and city for Atlanta, New York and Orlando.
+SELECT first_name, last_name, city
+FROM Employees
+WHERE city = "Atlanta" OR city = "New York" OR city = "Orlando"
+INTO OUTFILE "/var/lib/mysql-files/question2a.txt";
+
+# Question 2b: Query the count of employees from each city.
+SELECT city, count(*)
+FROM Employees
+GROUP BY city
+INTO OUTFILE "/var/lib/mysql-files/question2b.txt";
+
+# Question 3: Relates to departments and salaries. Not available.
+
+# Question 4: Only display the last four digits of the car VIN (social) number.
+SELECT id, first_name, last_name, email, gender, city, CONCAT("*************", RIGHT(car_vin,4))
+FROM Employees
+INTO OUTFILE "/var/lib/mysql-files/question4.txt";
+
+# Alternatively, replace the data within the columns. This may result in non-unique values, however.
+UPDATE Employees
+SET car_vin = CONCAT("*************", RIGHT(car_vin,4));
+SELECT *
+FROM Employees
+INTO OUTFILE "/var/lib/mysql-files/question4alt.txt";
