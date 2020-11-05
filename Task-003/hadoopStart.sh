@@ -13,7 +13,7 @@ fi
 if [[ ( $output != *"SecondaryNameNode"* ) || ( $output != *" NameNode"* ) || ( $output != *"DataNode"* ) ]];
 	then
 		echo "Starting DFS."
-		start-yarn.sh
+		start-dfs.sh
 	else
 		echo "DFS running."
 fi
