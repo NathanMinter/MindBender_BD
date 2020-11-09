@@ -1,0 +1,12 @@
+hadoop cluster
+
+create a 3-node cluster of hadoop
+local machine + 2 VMs
+local: NameNodes
+VMs: DataNodes
+
+How to Mapred Hadoop with Python
+
+Clusters progress
+All clusters can see each other via ssh with passwordless (keygens).
+Configured xml files, however start-dfs.sh does not start up cluster namenodes.
