@@ -1,0 +1,6 @@
+Create a flume agent to ingest data from twitter
+Store the data in HDFS
+## Completed in class via:
+bin/flume-ng agent --conf ./conf/ -f conf/twitter.conf Dflume.root.logger=DEBUG,console -n TwitterAgent
+
+Research/Try: Get all the stored data from HDFS in NIFI n have it store in a SQL table
