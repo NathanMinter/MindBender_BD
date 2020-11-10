@@ -9,4 +9,4 @@ How to Mapred Hadoop with Python
 
 Clusters progress
 All clusters can see each other via ssh with passwordless (keygens).
-Configured xml files, however start-dfs.sh does not start up cluster namenodes.
+Ubuntu laptop is Main, two VMs are Workers.
