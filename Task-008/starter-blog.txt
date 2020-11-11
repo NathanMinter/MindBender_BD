@@ -1,0 +1,3 @@
+Choose any topic covered so far and write a short blog post about it.
+
+About using bash scripts to automate logging into HDFS?
