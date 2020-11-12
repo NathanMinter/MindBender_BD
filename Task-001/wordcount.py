@@ -10,4 +10,4 @@ words_set = words_all.split(" ")
 
 for x in words_set:
 	n = words_all.count(x)
-	print("{}: {}".format(x,n))
+	print("{}: {}".format(x,n))u newuser
