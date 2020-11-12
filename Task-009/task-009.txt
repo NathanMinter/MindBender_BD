@@ -1,0 +1,1 @@
+Producer to send Shakespeare.txt using Kafka into consumer, via console.
