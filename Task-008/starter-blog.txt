@@ -1,3 +1,121 @@
 Choose any topic covered so far and write a short blog post about it.
 
 About using bash scripts to automate logging into HDFS?
+
+"
+Hi, this is a slightly advanced blog for anybody who has set up
+a Hadoop cluster, or a localhost HDFS, on their machine and is
+looking to automate the start-up of their nodes. If you haven't
+already setup Hadoop, please check out another blog with
+instructions on why and how.
+
+I personally find it very useful to have Hadoop automatically
+started, as it helps me to get working in HDFS as soon as I want
+it, and I don't have to remember to start my cluster before
+trying to put files in, either with NiFi, Flume, or whatever
+tool you're intending to use.
+
+To get started, you'll want to ensure that you're either using
+a .bash_profile (or similar file sourced in your .bashrc), or else
+that your .bashrc has been edited with your JAVA_HOME and
+HADOOP_HOME redirects. It should look something like this:
+
+export JAVA_HOME=/home/n/opt/jdk1.8.0_221
+export PATH=$PATH:$JAVA_HOME/bin
+
+export HADOOP_HOME=/home/n/opt/hadoop-2.7.3
+...
+export PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/bin
+
+Bear in mind your directory may start differently. Mine is
+"/home/n/opt" as I have chosen to keep my installations within
+a folder called "opt" in the home directory for user "n".
+
+We will create a simple bash script that's going to check if
+our Hadoop cluster is already running, and if not, start it up.
+For now, create a new bash script file in the directory
+of your .bash_profile:
+"sudo gedit ~/hadoopStart.sh"
+
+In this file, you'll want to start it off with a usual bash call:
+#!/usr/bin/bash
+
+Next, we need to capture the output from a "jps" command, to see
+whether any nodes or managers are already running. To do this,
+use the following:
+
+output=$(jps)
+
+This simply stores the result of running "jps" in a terminal in
+the variable 'output'. We can then check the contents of that
+variable (i.e. the contents of the output) for our ResourceManager
+and NameNodes. Firstly, we'll check for the ResourceManager:
+
+if [[ $output != *"ResourceManager"* ]];
+    then
+
+If we can't find ResourceManager within any of the output, then
+we need to start YARN using start-yarn.sh:
+
+		echo "Starting YARN."
+		bash /home/n/opt/hadoop-2.7.3/sbin/start-yarn.sh
+
+Otherwise, we want to know it's already running:
+
+	else
+		echo "YARN running."
+fi
+
+The 'fi' closes our 'if' statement.
+
+Similarly, if our NameNodes aren't running, we'll need to start
+our DFS using start-dfs.sh:
+
+if [[ ( $output != *"SecondaryNameNode"* ) || ( $output != *" NameNode"* ) ]];
+	then
+		echo "Starting DFS."
+		bash /home/n/opt/hadoop-2.7.3/sbin/start-dfs.sh
+	else
+		echo "DFS running."
+fi
+
+And lastly, I like to add something at the end so I know the
+script has completed. This could be a simple 'echo' or 'date'.
+
+echo "Hadoop running."
+
+Now save this file, and go back to your .bash_profile or .bashrc.
+Within this file, AFTER you've called JAVA_HOME and HADOOP_HOME
+(likely just at the very bottom of the file), you'll need to run
+this script by adding:
+
+bash /home/n/hadoopStart.sh
+
+Now when you open up your terminal, you'll get a handy prompt
+to indicate if Hadoop is already running, and if it isn't, it will
+be started for you. Below is my complete hadoopStart.sh file, for
+reference:
+
+#!/usr/bin/bash
+
+output=$(jps)
+
+if [[ $output != *"ResourceManager"* ]];
+	then
+		echo "Starting YARN."
+		bash /home/n/opt/hadoop-2.7.3/sbin/start-yarn.sh
+	else
+		echo "YARN running."
+fi
+
+if [[ ( $output != *"SecondaryNameNode"* ) || ( $output != *" NameNode"* ) ]];
+	then
+		echo "Starting DFS."
+		bash /home/n/opt/hadoop-2.7.3/sbin/start-dfs.sh
+	else
+		echo "DFS running."
+fi
+
+echo "Hadoop running."
+
+date
