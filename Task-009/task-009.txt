@@ -1,1 +1,14 @@
 Producer to send Shakespeare.txt using Kafka into consumer, via console.
+
+Completed with 4 terminal tabs.
+Tab 1:
+zookeeper-server-start.sh /home/n/opt/kafka-2.3.1/config/zookeer.properties
+
+Tab 2:
+kafka-server-start.sh /home/n/opt/kafka-2.3.1/config/server1.properties
+
+Tab 3:
+kafka-cohakespeare < /home/n/opt/MindBender_BD/Task-009/Shakespeare.txt
+
+Tab 4:
+kafka-console-consumer.sh --bootstrap-server localhost:9099 --topic shakespeare --from-beginning
