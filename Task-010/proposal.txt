@@ -1,0 +1,14 @@
+Research Rapid API or find API to work with (any-api.com).
+Business proposal for a pipeline with that API.
+
+Use Slack's API to send daily SCRUM updates to a chat.
+Potentially also allow members to update the bot, 
+    such that SCRUM updates can include individual people's progress
+http://any-api.com/slack_com/slack_com/docs/_chat_postMessage/chat_postMessage
+chat.postMessage
+
+Pipeline would require:
+1. A service to read and store incoming messages to the bot
+2. A service to process the messages and update the bot's SCRUM data
+3. A service to regularly post the SCRUM update to a Slack channel
+4. Channels between each of these services
