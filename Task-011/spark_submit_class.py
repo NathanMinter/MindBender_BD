@@ -22,7 +22,7 @@ from pyspark import SparkContext, SparkConf
 sc = SparkContext("local","Shakespeare")
 
 ## Read data from text file and split each line into words
-words = sc.textFile("/home/n/opt/MindBender_BD/Task-001/Shakespeare.txt").flatMap(lambda line: line.split(" "))
+words = sc.textFile("/home/n/opt/MindBender_BD/Task-011/Shakespeare.txt").flatMap(lambda line: line.split(" "))
 
 ## Count the occurrence of each word
 wordcount = words.map(lambda word: (word, 1)).reduceByKey(lambda a,b:a +b)
