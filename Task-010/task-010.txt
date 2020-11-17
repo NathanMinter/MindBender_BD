@@ -1,0 +1,1 @@
+Create Python Kafka producer to send data from JSON to in-console consumer for proposed API.

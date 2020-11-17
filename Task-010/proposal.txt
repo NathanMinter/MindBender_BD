@@ -12,3 +12,9 @@ Pipeline would require:
 2. A service to process the messages and update the bot's SCRUM data
 3. A service to regularly post the SCRUM update to a Slack channel
 4. Channels between each of these services
+
+Using the Slack API, their recommendation is an Azure-based 
+pipeline, however this could potentially be achieved using Python 
+to read and sent messages with the API, combined with Flume or 
+Nifi as channels for the data, and a file or database to store 
+the SCRUM bot's information.
