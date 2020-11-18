@@ -1,0 +1,2 @@
+Connect twitter API Kafka producer to Spark consumer
+Display resulting dataframe in-console (ID and text)
