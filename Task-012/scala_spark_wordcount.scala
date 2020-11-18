@@ -2,8 +2,7 @@ import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
 
-//object SparkWordCount{
-//    def main(args: Array[String]) {
+def main(args: Array[String]) {
         // Create Spark context
         val sc = new SparkContext(new SparkConf().setAppName("ShakespeareScalaCount"))
 
@@ -14,5 +13,4 @@ import org.apache.spark.SparkConf
         val wordCounts = tokenized.map((_, 1)).reduceByKey(_ + _)
 
         System.out.println(wordCounts.collect().mkString(", "))
-//    }
-//}
+}
