@@ -20,6 +20,7 @@ class StdOutListener(StreamListener):
         data_to_dump = json.loads(data)
         with open('/home/n/opt/MindBender_BD/Task-013/data.json', 'w') as f:
             json.dump(data_to_dump, f)
+        ## To send the data directly to Kafka consumer:
         #producer.send_messages(topic, data.encode('utf-8'))
         print("Tweet Sent")
         stream.disconnect()
@@ -55,7 +56,7 @@ put.communicate()
 ## Read json from HDFS into Spark dataframe
 df = spark.read.json('/spark/data.json', multiLine=True)
 
-## Transform dataframe to have id and text aliased as value, as Spark can only deal with stuff called "value"
+## Transform dataframe to have "id" and "text" aliased as "value", as Spark can only deal with stuff called "value"
 ## Then format and send to Kafka
 df.select(F.to_json(F.struct("id", "text")).alias("value")).write \
   .format("kafka") \
