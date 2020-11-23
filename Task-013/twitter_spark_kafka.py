@@ -13,7 +13,8 @@ ss = SparkSession.builder.appName(sc.appName).getOrCreate()
 kafkaStream = KafkaUtils.createStream(ssc, "localhost:2181", "twitter", {"tweets": 1})
 
 ## Parse tweets
-parsed = kafkaStream.map(lambda x: json.load(x[1])).filter(lambda x: x.get("lang") == "en").map(lambda x: tuple(x.get("id"), x.get("text")))
+unparsed = kafkaStream.map(lambda x: json.loads(x[1]))
+parsed = unparsed.filter(lambda x: x.get("lang") == "en").map(lambda x: (x.get("id"), x.get("text")))
 
 ## Custom function to process parsed tweets
 def process(rdd):
@@ -28,4 +29,4 @@ parsed.foreachRDD(process)
 
 ssc.start()
 
-ssc.awaitTermination
+ssc.awaitTermination()
