@@ -13,19 +13,19 @@ ss = SparkSession.builder.appName(sc.appName).getOrCreate()
 ## Set Kafka stream
 kafkaStream = KafkaUtils.createStream(ssc, "localhost:2181", "slack", {"slack": 1})
 
-## Parse tweets
+## Parse messages
 unparsed = kafkaStream.map(lambda x: ast.literal_eval(x[1]))
 parsed = unparsed.map(lambda x: (x.get('user'), x.get('text')))
 
-## Custom function to process parsed tweets
+## Custom function to process parsed messages
 def process(rdd):
     if not rdd.isEmpty():
         global ss
         df = ss.createDataFrame(rdd, schema=["user", "text"])
         df.show()
-        #df.write.saveAsTable(name="tweets_db.tweets_tbl", format="hive", mode="append")
+        #df.write.saveAsTable(name="slack_db.slack_tbl", format="hive", mode="append")
 
-## Write parsed tweets to Hive
+## Write parsed messages to Hive
 parsed.foreachRDD(process)
 
 ssc.start()
