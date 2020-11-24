@@ -1,0 +1,6 @@
+Create a emp table and CF (proff, personal)
+Load the mockdata.csv into the table
+
+Completed as follows:
+## Send data from csv file in Hadoop to Hbase.
+bin/hbase org.apache.hadoop.hbase.mapreduce.ImportTsv -Dimporttsv.separator=',' -Dimporttsv.columns='HBASE_ROW_KEY,personal:id,personal:first_name,personal:last_name,personal:email,personal:gender,personal:city,personal:social' mock /user/hbase/data/mock.csv
