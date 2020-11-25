@@ -1,0 +1,6 @@
+Proposal of Pipeline 2 - Due Friday Morning
+Create a Kafka producer in Python and have the data stored in Kafka Brokers - Monday
+
+Proposal:
+Check through instagram filters and update the top ten most popular per day
+Possibly store top ten daily in a table (e.g. Hive)
