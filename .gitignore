@@ -4,3 +4,5 @@ Task-007/twitter_json_items.txt
 Misc/keys
 Task-011/consumer.py
 Misc/star.txt
+reddit-pipeline/hot*.txt
+reddit-pipeline/keywords*.txt

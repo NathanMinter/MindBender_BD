@@ -2,5 +2,11 @@ Proposal of Pipeline 2 - Due Friday Morning
 Create a Kafka producer in Python and have the data stored in Kafka Brokers - Monday
 
 Proposal:
-Check through reddit submissions and update the top ten most common keywords
-Possibly store top ten daily in a table (e.g. Hive)
+To search for top 10 common keywords among submissions and store those in Hive.
+Reddit allows either text or URL submissions, but they always use a title that can be accessed.
+Check for the most popular keyword(s) used in those titles.
+There's currently no service that can check for common keywords used in reddit submissions,
+so this would be a way to check for what's "popular" on a daily basis.
+That information could then be used for analytics (e.g. are certain keywords appearing daily, etc).
+
+See: reddit-pipeline git.
