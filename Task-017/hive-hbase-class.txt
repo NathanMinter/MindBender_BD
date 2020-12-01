@@ -1,0 +1,49 @@
+Move a table from Hive to HBase.
+
+## Create second table in Hive to point to HBase table.
+CREATE TABLE hbase_table_employee (
+        employee_id INT,
+        full_name VARCHAR(30),
+        first_name VARCHAR(30),
+        last_name VARCHAR(30),
+        position_id INT,
+        position_title VARCHAR(30),
+        store_id INT,
+        department_id INT,
+        birth_date DATE,
+        hire_date TIMESTAMP,
+        end_date TIMESTAMP,
+        salary DECIMAL(10,4),
+        supervisor_id INT,
+        education_level VARCHAR(30),
+        marital_status VARCHAR(30),
+        gender VARCHAR(30),
+        management_role VARCHAR(30)
+    ) STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler'
+    WITH SERDEPROPERTIES (
+        "hbase.columns.mapping" = "
+            :key,
+            cf:full_name,
+            cf:first_name,
+            cf:last_name,
+            cf:position_id,
+            cf:position_title,
+            cf:store_id,
+            cf:department_id,
+            cf:birth_date,
+            cf:hire_date,
+            cf:end_date,
+            cf:salary,
+            cf:supervisor_id,
+            cf:education_level,
+            cf:marital_status,
+            cf:gender,
+            cf:management_role
+            ")
+        TBLPROPERTIES ("hbase.table.name" = "employee_hbase");
+
+## Insert data from original table into new table that points to HBase.
+INSERT INTO TABLE hbase_table_employee SELECT * FROM employee;
+
+## Check HBase shell
+scan 'employee_hbase'
