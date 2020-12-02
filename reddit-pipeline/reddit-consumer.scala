@@ -35,7 +35,7 @@ object LowLevelKafkaConsumer {
         "zookeeper.port" -> zkports,
         "kafka.topic" -> topic,
         "zookeeper.consumer.connection" -> "localhost:2181",
-        "kafka.consumer.id" -> "kafka-consumer",
+        "kafka.consumer.id" -> "kafka-consumer")
         //optional properties
         //"consumer.forcefromstart" -> "false",
         //"consumer.backpressure.enabled" -> "true",
