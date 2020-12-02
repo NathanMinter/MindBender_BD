@@ -1,2 +1,4 @@
 Create a the Spark application to ingest data from Kafka brokers
 Spark application should be in scala
+
+Powered by sbt.
