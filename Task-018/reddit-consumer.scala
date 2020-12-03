@@ -1,6 +1,4 @@
-//import org.apache.spark.sql_
 import org.apache.spark.sql.SparkSession
-import scala.util.parsing.json_
 
 object redditConsumer {
 
@@ -26,11 +24,9 @@ object redditConsumer {
 	  // Uses HQL to turn values from Kafka stream into STRING data type.
       val rawDF = inputDF.selectExpr("CAST(value AS STRING)").as[String]
 
-//	  val content = rawDF.map(x => readLogs(x._1, x._2.toString))
-
       val query = rawDF
       	.writeStream
-		.format("csv")
+		.format("json")
       	.outputMode("update")
       	.format("console")
       	.start()
