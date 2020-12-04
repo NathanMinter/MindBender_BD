@@ -1,0 +1,2 @@
+Airflow check if hadoop is running
+Finish cap ston proposals
