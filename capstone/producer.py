@@ -10,12 +10,15 @@ with open('/home/n/opt/MindBender_BD/Misc/keys') as keys:
 tmdb = tm.TMDb()
 tmdb.api_key = api_key
 
+## Connect to Kafka brokers
+kafka = kf.KafkaClient("localhost:9099,localhost:9092,localhost:9093")
+producer = kf.SimpleProducer(kafka)
+
 ## Find popular movies for the day
 movie = tm.Movie()
 popular = movie.popular()
 
 ## Create dict of the relevant information
-data = []
 for p in popular:
     movie_data = {}
     m = movie.details(p.id)
@@ -35,12 +38,5 @@ for p in popular:
     movie_data['title'] = m.title
     movie_data['vote_average'] = m.vote_average
     movie_data['vote_count'] = m.vote_count
-    data.append(movie_data)
-
-## Connect to Kafka brokers
-kafka = kf.KafkaClient("localhost:9099,localhost:9092,localhost:9093")
-producer = kf.SimpleProducer(kafka)
-
-## Send data to Kafka brokers (as json)
-json = json.dumps(data)
-producer.send_messages("capstone", bytes(json, 'utf-8'))
+    ## Send data to Kafka brokers as json
+    producer.send_messages("capstone", bytes(json.dumps(movie_data), 'utf-8'))
