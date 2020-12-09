@@ -7,7 +7,7 @@ from pyspark.sql import SparkSession
 ## Create sessions & contexts
 sc = SparkContext("local[*]", "capstone")
 ssc = StreamingContext(sc, 3)
-ss = SparkSession.builder.appName(sc.appName).config("spark.sql.warehouse.dir", "/user/hive/warehouse").config("hive.metastore.urls", "thrift://localhost:9083").enableHiveSupport().getOrCreate()
+ss = SparkSession.builder.appName(sc.appName).config("spark.mongodb.input.uri", "mongodb://127.0.0.1/capstone_db.data.coll").config("spark.mongodb.output.uri", "mongodb://127.0.0.1/capstone_db.data.coll").getOrCreate()
 
 ## Set Kafka stream
 kafkaStream = KafkaUtils.createStream(ssc, "localhost:2181", "capstone", {"capstone": 1})
@@ -22,7 +22,7 @@ def process(rdd):
         global ss
         df = ss.createDataFrame(rdd, schema=['adult', 'budget', 'genres', 'id', 'original_language', 'popularity', 'production_companies', 'production_countries', 'release_date', 'revenue', 'runtime', 'spoken_languages', 'status', 'title', 'vote_average', 'vote_count'])
         df.show()
-        df.write.saveAsTable(name="capstone_db.capstone_tbl", format="hive", mode="append")
+        df.write.format("mongo").mode("append").option("database", "capstone_db").option("collection", "capstone_tbl").save()
 
 ## Write parsed messages to Hive
 parsed.foreachRDD(process)
