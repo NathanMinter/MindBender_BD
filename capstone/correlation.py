@@ -1,6 +1,7 @@
 import pymongo
 import numpy as np
 import pandas as pd
+import seaborn as sns
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 from pymongo import MongoClient
@@ -34,21 +35,6 @@ def normalise(header):
 def dummy(header):
 	df[header] = pd.get_dummies(df[header])
 
-## Plotting correlation matrix
-def plot_corr_matrix(data,attr,fig_no):
-	correlations = data.corr()
-	fig = plt.figure(fig_no)
-	ax = fig.add_subplot(111)
-	ax.set_xticklabels(attr)
-	ax.set_yticklabels(attr)
-	cax = ax.matshow(correlations,vmax=1,vmin=-1)
-	fig.colorbar(cax)
-	plt.xticks(np.arange(len(attr)))
-	plt.yticks(np.arange(len(attr)))
-	plt.setp(ax.get_xticklabels(), rotation=45, ha="left", rotation_mode="anchor")
-	plt.xlabel('Correlation Matrix')
-	plt.show()
-
 ## Convert release date to categories (month and year)
 df['year'] = df['release_date'].str[:4]
 df['month'] = df['release_date'].str[5:7]
@@ -72,6 +58,8 @@ dummy('status')
 dummy('year')
 dummy('month')
 
-## Plot correlation heatmap
-data_basic = df.loc[:, used_headers]
-plot_corr_matrix(data_basic, used_headers, 3)
+## Plot correlation matrix
+cor = df.corr()
+plt.figure(figsize=(12, 10))
+sns.heatmap(cor, annot=True, cmap=plt.cm.Reds)
+plt.show()
