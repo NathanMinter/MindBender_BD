@@ -16,14 +16,16 @@ producer = kf.SimpleProducer(kafka)
 
 ## Find popular movies for the day
 movie = tm.Movie()
+latest = movie.latest()
 
-for page in range(1, 1000):
-    results = movie.popular(page=page)
+with open('/home/n/opt/MindBender_BD/capstone/latest.txt', 'r') as l:
+    movie_id = int(l.read())
 
-    ## Create dict of the relevant information
-    for p in results:
+for x in range(movie_id,latest.id):
+    try:
+        ## Select details for latest film to send to Kafka broker
         movie_data = {}
-        m = movie.details(p.id)
+        m = movie.details(x)
         movie_data['adult'] = m.adult
         movie_data['budget'] = m.budget
         ## Select first genre from list (most important)
@@ -56,5 +58,12 @@ for page in range(1, 1000):
         movie_data['title'] = m.title
         movie_data['vote_average'] = m.vote_average
         movie_data['vote_count'] = m.vote_count
+
         ## Send data to Kafka brokers as json
         producer.send_messages("capstone", bytes(json.dumps(movie_data), 'utf-8'))
+    except:
+        print("No movie with ID: {}".format(x))
+
+## Re-write latest.txt
+with open("/home/n/opt/MindBender_BD/capstone/latest.txt", "w+") as l:
+    l.write(str(latest.id))
