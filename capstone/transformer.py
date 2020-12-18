@@ -34,8 +34,6 @@ headers = ['_id', 'adult', 'budget', 'genres', 'id', 'original_language', 'popul
 df.columns = headers
 ## Remove duplicates based on the film ID, keeping the most recent version
 df.drop_duplicates(subset='id', keep='last', inplace=True)
-## Remove columns that can't logically affect revenue
-df.drop(columns=['id', 'title'], inplace=True)
 ## Set dependent variable (revenue or popularity)
 dependent_variable = 'revenue'
 
@@ -66,12 +64,17 @@ numeric('vote_count')
 #normalise('vote_average')
 #normalise('vote_count')
 dummy('adult')
+dummy('genres')
 dummy('original_language')
+dummy('production_companies')
+dummy('production_countries')
 dummy('status')
 dummy('year')
 dummy('month')
 ## Drop rows with revenue of 0 (incomplete data)
 df = df[df.revenue != 0]
+## Remove columns that can't logically affect revenue
+df.drop(columns=['_id', 'id', 'release_date', 'spoken_languages', 'title'], inplace=True)
 
 ## Determine features with good correlation (closer to 1 or -1 is best)
 cor = df.corr()

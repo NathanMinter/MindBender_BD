@@ -21,8 +21,9 @@ print(df)
 
 ## Create headers for dataframe
 headers = ['_id', 'adult', 'budget', 'genres', 'id', 'original_language', 'popularity', 'production_companies', 'production_countries', 'release_date', 'revenue', 'runtime', 'spoken_languages', 'status', 'title', 'vote_average', 'vote_count']
-used_headers = ['adult', 'budget', 'original_language', 'popularity', 'revenue', 'runtime', 'status', 'vote_average', 'vote_count', 'year', 'month']
 df.columns = headers
+## Remove duplicates based on the film ID, keeping the most recent version
+df.drop_duplicates(subset='id', keep='last', inplace=True)
 
 ## Converts column 'header' to numeric values (to weed out blanks)
 def numeric(header):
@@ -41,7 +42,6 @@ df['month'] = df['release_date'].str[5:7]
 
 ## Convert variables as required
 numeric('budget')
-numeric('id')
 numeric('popularity')
 numeric('revenue')
 numeric('runtime')
@@ -53,13 +53,19 @@ normalise('runtime')
 normalise('vote_average')
 normalise('vote_count')
 dummy('adult')
+dummy('genres')
 dummy('original_language')
+dummy('production_companies')
+dummy('production_countries')
 dummy('status')
 dummy('year')
 dummy('month')
 
+## Remove columns that can't logically affect revenue
+df.drop(columns=['_id', 'id', 'release_date', 'spoken_languages', 'title'], inplace=True)
+
 ## Plot correlation matrix
 cor = df.corr()
-plt.figure(figsize=(12, 10))
+plt.figure(figsize=(15, 15))
 sns.heatmap(cor, annot=True, cmap=plt.cm.Reds)
 plt.show()
