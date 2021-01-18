@@ -7,3 +7,7 @@ Misc/star.txt
 reddit-pipeline/hot*.txt
 reddit-pipeline/keywords*.txt
 sbt
+Tractable/starter
+venv/
+__pycache__/
+.pytest_cache/
