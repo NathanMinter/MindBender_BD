@@ -1,0 +1,6 @@
+How many times each of the products was bought by the customers
+
+read_csv products
+
+count each time a product appears within the json files
+    create df from all json, groupby product
