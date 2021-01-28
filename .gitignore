@@ -11,3 +11,8 @@ Tractable/starter
 venv/
 __pycache__/
 .pytest_cache/
+target/
+project/
+.vscode
+.metals
+.idea
