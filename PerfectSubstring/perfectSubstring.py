@@ -14,7 +14,7 @@ def PerfectSubstring(s, k):
     substrings = [s[i:j] for i in range(len(s)) for j in range(i + 1, len(s) + 1)]
     count = 0
     for s in substrings:
-        ## Save time by skipping any substrings that aren't a multiple of k - these obviously can't be perfect
+        ## Save time by skipping any substrings that aren't a multiple of k - these obviously can't be
         if len(s) % k == 0:
             if CheckPerfection(s, k) == False:
                 continue
